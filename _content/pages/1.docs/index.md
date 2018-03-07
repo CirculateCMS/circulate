@@ -14,6 +14,10 @@ Circulate is different from most other traditional content management systems (e
 
 Also, many flat-file CMSs are overwhelming and force you to learn new or unfamiliar technologies to be able to get the best out of them. Circulate aims to be different by being as **simple** and as **flexible** possible. We achieve this by using a stack that is made up of very popular and familiar technologies: PHP, Markdown and Blade templates.
 
+## Demo
+
+Looking for a demo of Circulate? This site is built using Circulate! Check out the source code [on GitHub](https://github.com/CirculateCMS/circulate).
+
 ## Let's Get Started
 
 If you're ready to get going you should check out our [Getting Started doc](/docs/getting-started).
