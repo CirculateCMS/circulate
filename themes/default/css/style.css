@@ -1,0 +1,64 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #73738c;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+.display-1, .display-2, .display-3, .display-4,
+.lead {
+    font-family: 'Dosis', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #2e2e6b;
+}
+
+a, a:visited {
+    color: #8d2dad;
+}
+a:hover, a:active {
+    color: #73738c;
+}
+
+.lead { font-weight: 500; }
+
+.footer,
+.footer a { color: #8196a4; }
+.footer a:hover { color: #8d2dad; }
+
+.hero,
+.cta {
+    background: #ff00cc;
+    background: -webkit-linear-gradient(to right, #ff00cc, #333399);
+    background: linear-gradient(to right, #ff00cc, #333399);
+    color: #fff;
+    position: relative;
+}
+.hero h1,
+.hero p,
+.cta h4,
+.cta p {
+    color: #fff;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.hero .btn,
+.cta .btn { color: #fff; }
+.hero .btn:hover,
+.cta .btn:hover { color: #212529; }
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.under-the-hood {
+    background-color: #f0f3f5;
+}
+.under-the-hood .display-1,
+.under-the-hood h3 { color: #8d2dad; }
+
+.feature-icon .cls-1,
+.feature-icon .cls-2 { stroke: #8d2dad; }

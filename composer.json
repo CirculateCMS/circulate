@@ -1,0 +1,22 @@
+{
+    "name": "circulatecms/circulate",
+    "description": "A simple flat-file CMS powered by PHP, Markdown and Blade templates.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gilbert Pellegrom",
+            "email": "gilbert@pellegrom.me"
+        }
+    ],
+    "require": {
+        "circulatecms/framework": "@dev",
+        "vlucas/phpdotenv": "^2.4",
+        "monolog/monolog": "^1.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "Circulate\\": "src/"
+        }
+    }
+}
