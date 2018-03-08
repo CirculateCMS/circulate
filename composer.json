@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "circulatecms/framework": "@dev",
+        "circulatecms/framework": "1.*",
         "vlucas/phpdotenv": "^2.4",
         "monolog/monolog": "^1.23"
     },
