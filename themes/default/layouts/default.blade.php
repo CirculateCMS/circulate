@@ -10,6 +10,14 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,700|Open+Sans:400,400i,700" rel="stylesheet">
     <link rel="stylesheet" href="/themes/default/css/style.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-3892196-89"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-3892196-89');
+    </script>
 </head>
 <body>
     @include('partials.header')
