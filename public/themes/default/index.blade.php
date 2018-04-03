@@ -24,7 +24,7 @@
                     <div class="row">
                         <div class="feature-icon col-sm-5">
                             @php
-                            include(CIRCULATE_BASE_PATH . '/themes/default/svg/monitor-loading-progress.svg');
+                            include(CIRCULATE_BASE_PATH . '/public/themes/default/svg/monitor-loading-progress.svg');
                             @endphp
                         </div>
                         <div class="feature-content col-sm-7">
@@ -37,7 +37,7 @@
                     <div class="row">
                         <div class="feature-icon col-sm-5">
                             @php
-                            include(CIRCULATE_BASE_PATH . '/themes/default/svg/monitor-window.svg');
+                            include(CIRCULATE_BASE_PATH . '/public/themes/default/svg/monitor-window.svg');
                             @endphp
                         </div>
                         <div class="feature-content col-sm-7">
@@ -52,7 +52,7 @@
                     <div class="row">
                         <div class="feature-icon col-sm-5">
                             @php
-                            include(CIRCULATE_BASE_PATH . '/themes/default/svg/color-palette.svg');
+                            include(CIRCULATE_BASE_PATH . '/public/themes/default/svg/color-palette.svg');
                             @endphp
                         </div>
                         <div class="feature-content col-sm-7">
@@ -65,7 +65,7 @@
                     <div class="row">
                         <div class="feature-icon col-sm-5">
                             @php
-                            include(CIRCULATE_BASE_PATH . '/themes/default/svg/programmer-male.svg');
+                            include(CIRCULATE_BASE_PATH . '/public/themes/default/svg/programmer-male.svg');
                             @endphp
                         </div>
                         <div class="feature-content col-sm-7">
@@ -80,7 +80,7 @@
                     <div class="row">
                         <div class="feature-icon col-sm-5">
                             @php
-                            include(CIRCULATE_BASE_PATH . '/themes/default/svg/real-estate-house.svg');
+                            include(CIRCULATE_BASE_PATH . '/public/themes/default/svg/real-estate-house.svg');
                             @endphp
                         </div>
                         <div class="feature-content col-sm-7">
@@ -93,7 +93,7 @@
                     <div class="row">
                         <div class="feature-icon col-sm-5">
                             @php
-                            include(CIRCULATE_BASE_PATH . '/themes/default/svg/write-paper-ink.svg');
+                            include(CIRCULATE_BASE_PATH . '/public/themes/default/svg/write-paper-ink.svg');
                             @endphp
                         </div>
                         <div class="feature-content col-sm-7">
