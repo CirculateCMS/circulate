@@ -3,7 +3,7 @@ template: doc
 ---
 ## Themes
 
-Circulate themes are stored in `/themes` and have a very simple folder structure. The only files actually required for a theme are the default Blade template files used by Circulate which are stored in the root folder of your theme. However, almost every theme will require supporting files (such as CSS and JS files) and Circulate leaves it up to you how you want to structure your theme folder with regard to supporting files.
+Circulate themes are stored in `/public/themes` and have a very simple folder structure. The only files actually required for a theme are the default Blade template files used by Circulate which are stored in the root folder of your theme. However, almost every theme will require supporting files (such as CSS and JS files) and Circulate leaves it up to you how you want to structure your theme folder with regard to supporting files.
 
 The theme can be changed in [the settings](/docs/settings).
 

@@ -9,6 +9,6 @@ To override the default Circulate settings copy the `.env.example` file in the r
 * `THEME` (Default: `default`)
 * `CACHE_PATH` (Default: `_storage`)
 * `CONTENT_PATH` (Default: `_content`)
-* `THEMES_PATH` (Default: `themes`)
+* `THEMES_PATH` (Default: `public/themes`)
 
 Note: The `$settings` array available in [the theme templates](/docs/theming) contains these values but with lower case keys.

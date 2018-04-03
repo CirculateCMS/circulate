@@ -28,7 +28,7 @@ chmod -R 755 ./_storage
 If you are wanting to develop your circulate site locally, then you can run a simple PHP server by running:
 
 ```
-php -S localhost:8000
+php -S localhost:8000 -t public
 ```
 
 You should now be able to reach your local server at [http://localhost:8000](http://localhost:8000).
