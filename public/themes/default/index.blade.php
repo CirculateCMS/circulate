@@ -135,6 +135,8 @@
             <h4 class="h1 mb-4">Build your next site with Circulate</h4>
             <p class="h4 mb-4">It only takes a couple of minutes to get up and running with Circulate.</p>
             <a class="btn btn-lg btn-outline-light" href="/docs/getting-started">Get Started</a>
+
+            <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I&#39;ve tested Circulate, a flat-file CMS, over the weekend and I really liked it. Definitely going to use it for one of my side projects: <a href="https://t.co/XXySdpL9T8">https://t.co/XXySdpL9T8</a> /cc <a href="https://twitter.com/gilbitron?ref_src=twsrc%5Etfw">@gilbitron</a> <a href="https://twitter.com/hashtag/PHP?src=hash&amp;ref_src=twsrc%5Etfw">#PHP</a> <a href="https://twitter.com/hashtag/Markdown?src=hash&amp;ref_src=twsrc%5Etfw">#Markdown</a> <a href="https://twitter.com/hashtag/Blade?src=hash&amp;ref_src=twsrc%5Etfw">#Blade</a></p>&mdash; Sven (@hofmannsven) <a href="https://twitter.com/hofmannsven/status/973115078189907968?ref_src=twsrc%5Etfw">March 12, 2018</a></blockquote>
         </div>
     </section>
 @endsection
@@ -142,4 +144,5 @@
 @section('scripts')
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="/themes/default/js/particles.js"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 @endsection
