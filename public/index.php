@@ -1,8 +1,8 @@
 <?php
 
-include __DIR__ . '/vendor/autoload.php';
+define('CIRCULATE_BASE_PATH', dirname(__DIR__));
 
-define('CIRCULATE_BASE_PATH', __DIR__);
+include CIRCULATE_BASE_PATH . '/vendor/autoload.php';
 
 $logger = new Monolog\Logger('Circulate');
 $logger->pushHandler(new Monolog\Handler\StreamHandler(CIRCULATE_BASE_PATH . DIRECTORY_SEPARATOR . '_storage' . DIRECTORY_SEPARATOR . 'logs' . DIRECTORY_SEPARATOR . 'circulate.log'));
